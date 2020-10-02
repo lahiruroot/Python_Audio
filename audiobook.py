@@ -1,6 +1,6 @@
 import pyttsx3
 import pyPDF1
-book = open('sl.pdf','rb')
+book = open('ttsl.pdf','rb')
 pdfReader = pyPDF1.pdfFileReader(book)
 pages = pdfReader.numPages
 print(pages)
